@@ -7,8 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+var memo = arrayOfZero()
 
+
+class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
