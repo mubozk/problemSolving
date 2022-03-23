@@ -58,6 +58,8 @@ func makeTestData() -> TreeNode {
     node6.left = node101
     let node0 = TreeNode(0)
     node6.right = node0
+    let node500 = TreeNode(500)
+    node99.right = node500
     
     return node1
 }
@@ -77,11 +79,11 @@ func getMaxPathValue(from node: TreeNode?) -> Int {
     return node!.val + max(leftVal, rightVal)
 }
 
-let input = [[1], [8, 4], [2, 6, 9], [8, 5, 9, 3]]
-
-func printAllAdjastantNeighbours(on array: [[Int]]) {
-    // solve
-}
+//let input = [[1], [8, 4], [2, 6, 9], [8, 5, 9, 3]]
+//
+//func printAllAdjastantNeighbours(on array: [[Int]]) {
+//    // solve
+//}
 
 // TASKS
 //add right node to 99 as 500
