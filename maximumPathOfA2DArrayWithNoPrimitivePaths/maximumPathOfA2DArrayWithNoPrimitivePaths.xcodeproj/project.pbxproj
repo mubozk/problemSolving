@@ -14,8 +14,8 @@
 		06B6AFF427EB91CE006A7DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B6AFF327EB91CE006A7DE0 /* Assets.xcassets */; };
 		06B6AFF727EB91CE006A7DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06B6AFF527EB91CE006A7DE0 /* LaunchScreen.storyboard */; };
 		06B6AFFF27EB91E3006A7DE0 /* Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6AFFE27EB91E3006A7DE0 /* Traverse.swift */; };
-		06B6B00127EB9AB4006A7DE0 /* PrimitiveChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6B00027EB9AB4006A7DE0 /* PrimitiveChecker.swift */; };
 		06B6B02527EBCB87006A7DE0 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6B02427EBCB87006A7DE0 /* Memoization.swift */; };
+		06B6B02727EBE467006A7DE0 /* Prime Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B6B02627EBE466006A7DE0 /* Prime Checker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		06B6AFF627EB91CE006A7DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06B6AFF827EB91CE006A7DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06B6AFFE27EB91E3006A7DE0 /* Traverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traverse.swift; sourceTree = "<group>"; };
-		06B6B00027EB9AB4006A7DE0 /* PrimitiveChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveChecker.swift; sourceTree = "<group>"; };
 		06B6B02427EBCB87006A7DE0 /* Memoization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoization.swift; sourceTree = "<group>"; };
+		06B6B02627EBE466006A7DE0 /* Prime Checker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Prime Checker.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		06B6AFE927EB91CC006A7DE0 /* maximumPathOfA2DArrayWithNoPrimitivePaths */ = {
 			isa = PBXGroup;
 			children = (
-				06B6B00027EB9AB4006A7DE0 /* PrimitiveChecker.swift */,
+				06B6B02627EBE466006A7DE0 /* Prime Checker.swift */,
 				06B6AFFE27EB91E3006A7DE0 /* Traverse.swift */,
 				06B6B02427EBCB87006A7DE0 /* Memoization.swift */,
 				06B6AFEA27EB91CC006A7DE0 /* AppDelegate.swift */,
@@ -149,7 +149,7 @@
 			files = (
 				06B6B02527EBCB87006A7DE0 /* Memoization.swift in Sources */,
 				06B6AFEF27EB91CD006A7DE0 /* ViewController.swift in Sources */,
-				06B6B00127EB9AB4006A7DE0 /* PrimitiveChecker.swift in Sources */,
+				06B6B02727EBE467006A7DE0 /* Prime Checker.swift in Sources */,
 				06B6AFFF27EB91E3006A7DE0 /* Traverse.swift in Sources */,
 				06B6AFEB27EB91CC006A7DE0 /* AppDelegate.swift in Sources */,
 				06B6AFED27EB91CD006A7DE0 /* SceneDelegate.swift in Sources */,

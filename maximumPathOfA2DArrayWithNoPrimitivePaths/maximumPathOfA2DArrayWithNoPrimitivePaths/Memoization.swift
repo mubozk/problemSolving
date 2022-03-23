@@ -21,6 +21,7 @@ func arrayOfZero() -> [[Int]] {
 
 func memoization(rowCoordinate: Int, columnCoordinate: Int) -> Int {
     if ( memo[rowCoordinate][columnCoordinate] != 0 ) {
+        memo[rowCoordinate][columnCoordinate] = input[rowCoordinate][columnCoordinate]
         return memo[rowCoordinate][columnCoordinate]
     }
     return 0

@@ -26,16 +26,11 @@ let input = [
 
 func printAllAdjacentNeighbours(on array: [[Int]], row: Int, column: Int) -> Int {
     
-    let primitiveChecker = primitiveChecker(valueFromArray: array[row][column])
-    if primitiveChecker == true {
+    let primeChecker = primeChecker(valueFromArray: array[row][column])
+    if primeChecker == true {
         return 0
     }
-//     always comes false
-//     because this array isn't optional so it doesnt contain
-//     nil
-//        if  array[row+1][column] > Int.min && array[row+1][column+1] > Int.min {
-//            return array[row][column]
-//        }
+    
     
     if row >= array.count-1 || column >= array.count-1 {
         return array[row][column]
@@ -46,17 +41,19 @@ func printAllAdjacentNeighbours(on array: [[Int]], row: Int, column: Int) -> Int
     else{
         
         
-        
+        //amateur debugging methods
         let leftAdjacent = printAllAdjacentNeighbours(on: input, row: row+1, column: column )
+        //        print (left)
         let rightAdjacent = printAllAdjacentNeighbours(on: input, row: row+1, column: column+1 )
+        //        print (right)
         // need to keep a hold of current rows and columns indexes
+        memo[row][column] = array[row][column] + max(leftAdjacent, rightAdjacent)
         return array[row][column] + max(leftAdjacent, rightAdjacent)
     }
 }
 
 
 
-//
 //                                      Addresses
 //          1                           1-> [0, 0]
 //         / \                              /  \
@@ -65,6 +62,3 @@ func printAllAdjacentNeighbours(on array: [[Int]], row: Int, column: Int) -> Int
 //      2   6   9               2->[2,0]   6->[2,1]  9->[2,2]
 //     / \ / \ / \                  /    \/        \/        \
 //    8   5   9   3         8->[3,0]    5->[3,1]  9->[3,2]   3->[3,3]
-//
-//
-//
